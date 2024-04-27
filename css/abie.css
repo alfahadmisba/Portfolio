@@ -1,9 +1,15 @@
+*{
+    background-color: #badaf7;
+   
+
+}
 .body{
     margin: 0;
     font-family: sans-serif;
     font-size: 16px;
     font-weight: 400;
     color: #0f2656;
+    background-color: #1493ff !important;
 }
 /* header start */
 header{
@@ -21,7 +27,7 @@ header{
    
 }
 .blank_space{
-    height: 300px;
+    height: 100px;
 }
 .logo a {
     display: block;
@@ -77,18 +83,24 @@ header{
 }
 .b_h3 {
     margin: 0;
-    font-size: 40px;
+    font-size: 20px;
     font-weight: 700;
     line-height: 65px;
- 
-    text-align: left;  
-    
+    text-align: left;
+}
+.b_h2{
+    text-align: left;
+    font-size: 60px;
 }
 .b_p{
     text-align: left;
+    font-size: 20px;
 }
 .b_image{
     text-align: left;
+}
+.i.1{
+    float: right;
 }
 /* banner end */
 /* topic start */
@@ -135,16 +147,6 @@ header{
     padding: 40px 2.1% 50px;
     margin-right: 3%;
 }
-.red{
-   background-color: #fdebed;
-}
-.green{
-   background-color: #ebf9f4;
-}
-.yellow{
-    background-color: #fff7e8;
-   
-}
 .s_item img{
     float: right;
 
@@ -161,9 +163,13 @@ header{
 }
 .s_p{
     margin: 0;
-    line-height: 200px;
+    width: 70%;
+    /* line-height:20px; */
     font-size: 20px;
-    float:left;
+    /* float:right; */
+
+    padding-left:150px;
+    padding-top: 100px;
     /* padding-top: 80px; */
 
 }
